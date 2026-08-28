@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0043ec2b-0d85-493f-b58c-09824d67c160">
+  <producedTypes>
+    <selectionType typeId="8c290442-2051-4ea5-b8f1-cb22669a2f94" valueTypeId="d243bc97-cd91-4862-9b96-2320f189c960"/>
+    <listType typeId="d2ae0afa-f554-4cda-9d25-62d663bf244f" valueTypeId="2a80d103-d57f-47e6-ab59-c64a5336cd6c"/>
+    <managerType typeId="2a11f084-c235-45ae-9136-b627b35b64c1" valueTypeId="24b97f3a-0578-4dee-880b-ac94ce438b36"/>
+    <recordSetType typeId="b9582278-cd13-4ae3-8d13-272b1f4da9b7" valueTypeId="6f9e8c9b-674e-426f-8a38-d5a29cfd8e54"/>
+    <recordKeyType typeId="d39ca792-3fde-468f-a3aa-dba30988490f" valueTypeId="3fad70f9-abe8-4b5d-9349-58c4dd9bd808"/>
+    <recordType typeId="6f03c2d2-451f-4b9e-9be7-e4ac90927fae" valueTypeId="bb2fd725-c14d-46ac-b1b3-5c88f31c44bf"/>
+    <recordManagerType typeId="7386185a-8c7f-4674-9098-62be5be1b063" valueTypeId="fae8719d-8ba9-4890-80e6-6193eb9a1041"/>
+  </producedTypes>
+  <name>RSVData_КартаАнонимизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>MCP:RSV Data — карта анонимизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1b3e180c-eee0-4e15-a0f2-79a5988932b0">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e39875b5-7276-44a2-a24f-e2c706c97032">
+    <name>СериализованноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сериализованное значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8b7deda4-02f7-4735-8d1b-167b7a75b843">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b5a01fac-17b8-4cf4-89c2-8964ab3fedaf">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="b6dc8f0d-c148-4cb2-8897-0cf4c348094b">
+    <name>КлючЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ значения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

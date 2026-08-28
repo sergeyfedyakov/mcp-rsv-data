@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e0b6fe8-f5df-4f0b-a549-c08aae1e321e">
+  <name>RSVData_Ядро</name>
+  <synonym>
+    <key>ru</key>
+    <value>RSV Data: ядро</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

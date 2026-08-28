@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc1ca80d-a1c1-4581-94de-2d666571d3cf">
+  <producedTypes>
+    <managerType typeId="559991ac-efbc-4c16-b1b8-177d7c7bee2f" valueTypeId="e9b2cea8-3062-4a79-a69f-c3ddf2cae5b1"/>
+    <valueManagerType typeId="4f16ceac-bd0e-42b6-b7d5-1b93284e6982" valueTypeId="9a10312b-171e-41f7-a59e-ab6941300077"/>
+    <valueKeyType typeId="2a81a19f-fe85-444e-bcc6-11af2863b34f" valueTypeId="5cef6061-f7fd-48d1-9512-dbf56c782ca2"/>
+  </producedTypes>
+  <name>RSVData_АнонимизацияОтключена</name>
+  <synonym>
+    <key>ru</key>
+    <value>MCP:RSV Data — анонимизация отключена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

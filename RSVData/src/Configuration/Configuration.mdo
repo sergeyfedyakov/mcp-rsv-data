@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6746f35e-e5ce-4bd8-9ced-85c3a64eb716">
+  <name>RSVData</name>
+  <synonym>
+    <key>ru</key>
+    <value>MCP:RSV Data</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d3ec0837-3bdf-4c85-8185-1e15a353185d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="45c3be92-2534-4117-89c1-8cbfb0fc3c5e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="65005bd1-3578-40d0-b6ba-e299a7cd1007"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1fc5cc16-cd03-4258-afa1-0d2dd664e6ec"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7ff4e8b2-ddbb-4d33-be0e-61affbc6a339"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="58bf04da-c586-4b8b-a83a-d04f73f250c2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9c6e3159-ec0a-4455-b760-a89e8174d55e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>RSVData_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>https://prepod2003.github.io/edt-ai-1c/index.html</vendor>
+  <version>1.3.0</version>
+  <briefInformation>
+    <key>ru</key>
+    <value>MCP:RSV Data — бесплатный MCP-сервер для чтения данных рабочей базы 1С (runtime). Разработчик: Радзивиллович Сергей.</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>MCP:RSV Data — бесплатный MCP-сервер: даёт ИИ-агенту читать данные рабочей базы 1С
+(объекты, запросы, остатки, отчёты). Работает на любой конфигурации, только чтение.
+
+Разработчик: Радзивиллович Сергей.
+Сайт: https://prepod2003.github.io/edt-ai-1c/
+
+Нужна разработка в 1С:EDT (код, метаданные, формы, отладка)? Это платный продукт
+MCP:RSV Server: https://prepod2003.github.io/edt-ai-1c
+</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>© Радзивиллович Сергей</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://prepod2003.github.io/edt-ai-1c</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/prepod2003/mcp-rsv-data</value>
+  </configurationInformationAddress>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="36d11afc-052c-4381-a1e5-d5d5f5bd4651">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+  </languages>
+  <subsystems>Subsystem.RSVData_MCPДанные</subsystems>
+  <commonModules>CommonModule.RSVData_Ядро</commonModules>
+  <commonModules>CommonModule.RSVData_Сервер</commonModules>
+  <commonModules>CommonModule.RSVData_Справка</commonModules>
+  <commonModules>CommonModule.RSVData_Анонимизация</commonModules>
+  <httpServices>HTTPService.RSVData_MCP</httpServices>
+  <constants>Constant.RSVData_АнонимизацияОтключена</constants>
+  <informationRegisters>InformationRegister.RSVData_КартаАнонимизации</informationRegisters>
+</mdclass:Configuration>

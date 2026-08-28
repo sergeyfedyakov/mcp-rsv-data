@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="581045e8-4ae6-4f3e-9f59-292065f03e31">
+  <name>RSVData_MCPДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>MCP:RSV Data</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.ExternalDataSource</picture>
+  </picture>
+  <content>HTTPService.RSVData_MCP</content>
+  <content>CommonModule.RSVData_Сервер</content>
+  <content>CommonModule.RSVData_Ядро</content>
+  <content>CommonModule.RSVData_Анонимизация</content>
+  <content>InformationRegister.RSVData_КартаАнонимизации</content>
+  <content>Constant.RSVData_АнонимизацияОтключена</content>
+</mdclass:Subsystem>

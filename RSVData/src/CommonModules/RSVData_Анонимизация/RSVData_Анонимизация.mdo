@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4486c5f2-ffcb-4561-ac65-91f826686df1">
+  <name>RSVData_Анонимизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>MCP:RSV Data — анонимизация</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

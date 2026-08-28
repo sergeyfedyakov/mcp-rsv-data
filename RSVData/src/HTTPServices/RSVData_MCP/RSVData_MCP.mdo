@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d4a0f27-2182-40f8-8993-4851f48b2399">
+  <name>RSVData_MCP</name>
+  <synonym>
+    <key>ru</key>
+    <value>MCP:RSV Data</value>
+  </synonym>
+  <rootURL>rsvdata</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="0f35a62b-997c-42ac-80e9-1e2967f272cb">
+    <name>MCP</name>
+    <synonym>
+      <key>ru</key>
+      <value>MCP</value>
+    </synonym>
+    <template>/mcp</template>
+    <methods uuid="e5b1a577-abbe-48e4-b730-a82f7f85f47a">
+      <name>Сообщение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сообщение</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОбработатьСообщение</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

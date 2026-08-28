@@ -11,3 +11,8 @@ bridge/.smoke-output.txt
 bridge/.smoke-stderr.txt
 bridge/bridge.json
 bridge/*-input.txt
+
+# 1C:EDT artifacts
+RSVData/apptarget/
+.metadata/
+*.log
