@@ -12,6 +12,12 @@ bridge/.smoke-stderr.txt
 bridge/bridge.json
 bridge/*-input.txt
 
+# Рабочие заметки агента (внутренние пути, имена баз — не для публикации)
+.ai/
+
+# Стенд сборки релизного архива (MCP-RSV-Data.zip и его файлы)
+dist/
+
 # 1C:EDT artifacts
 RSVData/apptarget/
 .metadata/

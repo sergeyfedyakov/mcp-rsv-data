@@ -80,6 +80,8 @@ JSON не трогается. При отказе — обычный путь: �
 | `rsvdata-bridge diag`  | Список расширений базы + доступность модулей RSVData через внешнее соединение. |
 
 Общие флаги: `--config <путь>` (файл конфига), `--connect "<строка соединения 1С>"` (переопределяет конфиг).
+Формат файла конфига — [`bridge.example.json`](bridge.example.json) (реальные конфиги мастер создаёт
+в `%APPDATA%\MCP-RSV-Data\`, в репозиторий они не попадают).
 
 ## Как устроено (для разработчика)
 
@@ -118,5 +120,5 @@ rsvdata-bridge.exe ping --connect 'File="D:\путь\к\базе";Usr="Адми�
 
 ## Ссылки
 
-- Архитектура и принципы — [`../04-architecture-and-conventions.md`](../04-architecture-and-conventions.md) §7.
-- План — [`../03-implementation-plan.md`](../03-implementation-plan.md) ФАЗА 5.
+- Обзор продукта и инструментов — [`../RSVData.md`](../RSVData.md).
+- Руководство пользователя — [`../guide.md`](../guide.md).

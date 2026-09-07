@@ -1,0 +1,8 @@
+{
+  "_comment": "Пример конфига моста (rsvdata-bridge serve). Реальный конфиг создаёт мастер `rsvdata-bridge.exe setup` в %APPDATA%\\MCP-RSV-Data\\<имя>.json (права 0600, логин/пароль обычным текстом). Этот файл — только образец формата, в git реальные конфиги не попадают (bridge.json в .gitignore).",
+  "kind": "server",
+  "server": "my-1c-server",
+  "ref": "my_database",
+  "user": "mcp_user",
+  "password": "<пароль>"
+}

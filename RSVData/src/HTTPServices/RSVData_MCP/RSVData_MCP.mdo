@@ -25,4 +25,38 @@
       <handler>ОбработатьСообщение</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="132febf8-cc96-4888-9283-b58decf026f4">
+    <name>Update</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update</value>
+    </synonym>
+    <template>/update</template>
+    <methods uuid="e74f2f96-0275-4a68-9a0a-595303747e34">
+      <name>Обновить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обновить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОбработатьОбновление</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a7ba92ca-2632-4545-ab52-cd267da1ffbe">
+    <name>Remove</name>
+    <synonym>
+      <key>ru</key>
+      <value>Remove</value>
+    </synonym>
+    <template>/remove</template>
+    <methods uuid="fc17df29-ba8f-4009-8f60-253e0596e534">
+      <name>Удалить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удалить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОбработатьУдаление</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
