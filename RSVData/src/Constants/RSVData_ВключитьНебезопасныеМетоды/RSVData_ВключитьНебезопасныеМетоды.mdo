@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93238108-ed03-4946-9afa-b97dd6f26cc6">
+  <producedTypes>
+    <managerType typeId="a71759f5-8fc4-45c2-b022-78081e9bfd28" valueTypeId="cb2930f3-9ece-425c-a9f4-1110573f3c3e"/>
+    <valueManagerType typeId="e37f9d34-b372-42df-8e3e-4c3515e6b5ad" valueTypeId="0854c4e9-846c-45d9-b04c-ab827221ef9f"/>
+    <valueKeyType typeId="6ef95a3b-8478-45cb-8ef7-77526dd1dfd8" valueTypeId="ca9f6036-324d-4b0b-95f6-1140b197c041"/>
+  </producedTypes>
+  <name>RSVData_ВключитьНебезопасныеМетоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включить небезопасные методы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

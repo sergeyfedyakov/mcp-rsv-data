@@ -20,7 +20,7 @@
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://prepod2003.github.io/edt-ai-1c/index.html</vendor>
-  <version>1.3.6</version>
+  <version>1.3.9</version>
   <briefInformation>
     <key>ru</key>
     <value>MCP:RSV Data — бесплатный MCP-сервер для чтения данных рабочей базы 1С (runtime). Разработчик: Радзивиллович Сергей.</value>
@@ -59,7 +59,10 @@ MCP:RSV Server: https://prepod2003.github.io/edt-ai-1c
   <commonModules>CommonModule.RSVData_Сервер</commonModules>
   <commonModules>CommonModule.RSVData_Справка</commonModules>
   <commonModules>CommonModule.RSVData_Анонимизация</commonModules>
+  <commonModules>CommonModule.RSVData_ПовтИсп</commonModules>
   <httpServices>HTTPService.RSVData_MCP</httpServices>
   <constants>Constant.RSVData_АнонимизацияОтключена</constants>
+  <constants>Constant.RSVData_ВключитьНебезопасныеМетоды</constants>
+  <dataProcessors>DataProcessor.RSVData_Настройки</dataProcessors>
   <informationRegisters>InformationRegister.RSVData_КартаАнонимизации</informationRegisters>
 </mdclass:Configuration>

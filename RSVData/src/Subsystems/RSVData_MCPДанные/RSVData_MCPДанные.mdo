@@ -15,5 +15,6 @@
   <content>CommonModule.RSVData_Ядро</content>
   <content>CommonModule.RSVData_Анонимизация</content>
   <content>InformationRegister.RSVData_КартаАнонимизации</content>
-  <content>Constant.RSVData_АнонимизацияОтключена</content>
+  <content>CommonModule.RSVData_ПовтИсп</content>
+  <content>DataProcessor.RSVData_Настройки</content>
 </mdclass:Subsystem>

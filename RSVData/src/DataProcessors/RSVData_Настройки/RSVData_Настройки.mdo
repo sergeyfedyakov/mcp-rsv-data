@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09c9581b-7565-46ed-b49b-e491f53c662e">
+  <producedTypes>
+    <objectType typeId="10ff780c-4860-4b9d-a17c-3ce4369de21a" valueTypeId="8ccbc1f3-d67c-4aca-a64d-af163767e88b"/>
+    <managerType typeId="b33ae191-4cfe-43bd-bbfe-9aeb3d7a6406" valueTypeId="c3132c97-39b8-49a1-9c82-cf5541ff55a0"/>
+  </producedTypes>
+  <name>RSVData_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки MCP:RSV Data</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.RSVData_Настройки.Form.Форма</defaultForm>
+  <forms uuid="0fa88cf0-646f-4bf2-a5a2-b13353937741">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>
